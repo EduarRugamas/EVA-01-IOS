@@ -7,13 +7,27 @@
 
 import SwiftUI
 
+
+
+
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Home")
+            UniversidadesUI()
                 .tabItem {
-                    Text("")
+                    Image(systemName: "house")
+                    Text("Universidades")
                 }
+                MuseosUI()
+                .tabItem {
+                    Text("Museos")
+                }
+                
+                TeatrosUI()
+                    .tabItem {
+                        Image(systemName: "")
+                        Text("Teatros")
+                    }
         }
     }
 }

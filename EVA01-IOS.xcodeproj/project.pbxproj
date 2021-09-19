@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5D987E26F7BF41001D7030 /* UniversidadesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D987D26F7BF41001D7030 /* UniversidadesUI.swift */; };
+		DE5D988126F7BFB4001D7030 /* MuseosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D988026F7BFB4001D7030 /* MuseosUI.swift */; };
+		DE5D988326F7C350001D7030 /* TeatrosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D988226F7C350001D7030 /* TeatrosUI.swift */; };
+		DE5D988626F7DC6D001D7030 /* Sities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D988526F7DC6D001D7030 /* Sities.swift */; };
 		DED7063E26F77E95009A80BC /* EVA01_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7063D26F77E95009A80BC /* EVA01_IOSApp.swift */; };
 		DED7064026F77E95009A80BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7063F26F77E95009A80BC /* ContentView.swift */; };
 		DED7064226F77E97009A80BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED7064126F77E97009A80BC /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE5D987D26F7BF41001D7030 /* UniversidadesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversidadesUI.swift; sourceTree = "<group>"; };
+		DE5D988026F7BFB4001D7030 /* MuseosUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseosUI.swift; sourceTree = "<group>"; };
+		DE5D988226F7C350001D7030 /* TeatrosUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeatrosUI.swift; sourceTree = "<group>"; };
+		DE5D988526F7DC6D001D7030 /* Sities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sities.swift; sourceTree = "<group>"; };
 		DED7063A26F77E95009A80BC /* EVA01-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EVA01-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED7063D26F77E95009A80BC /* EVA01_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVA01_IOSApp.swift; sourceTree = "<group>"; };
 		DED7063F26F77E95009A80BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE5D987F26F7BF95001D7030 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DE5D987D26F7BF41001D7030 /* UniversidadesUI.swift */,
+				DE5D988026F7BFB4001D7030 /* MuseosUI.swift */,
+				DE5D988226F7C350001D7030 /* TeatrosUI.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DE5D988426F7D9E8001D7030 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE5D988526F7DC6D001D7030 /* Sities.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		DED7063126F77E95009A80BC = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +78,8 @@
 		DED7063C26F77E95009A80BC /* EVA01-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				DE5D988426F7D9E8001D7030 /* Data */,
+				DE5D987F26F7BF95001D7030 /* views */,
 				DED7063D26F77E95009A80BC /* EVA01_IOSApp.swift */,
 				DED7063F26F77E95009A80BC /* ContentView.swift */,
 				DED7064126F77E97009A80BC /* Assets.xcassets */,
@@ -138,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5D987E26F7BF41001D7030 /* UniversidadesUI.swift in Sources */,
 				DED7064026F77E95009A80BC /* ContentView.swift in Sources */,
+				DE5D988626F7DC6D001D7030 /* Sities.swift in Sources */,
 				DED7063E26F77E95009A80BC /* EVA01_IOSApp.swift in Sources */,
+				DE5D988126F7BFB4001D7030 /* MuseosUI.swift in Sources */,
+				DE5D988326F7C350001D7030 /* TeatrosUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +304,7 @@
 				DEVELOPMENT_TEAM = QTZ94669TR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "EVA01-IOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +326,7 @@
 				DEVELOPMENT_TEAM = QTZ94669TR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "EVA01-IOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
