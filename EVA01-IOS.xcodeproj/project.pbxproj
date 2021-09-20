@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE55FDC226F8EF5100BD1903 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55FDC126F8EF5100BD1903 /* ItemList.swift */; };
+		DE55FDC626F8FE5E00BD1903 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55FDC526F8FE5E00BD1903 /* ItemDetails.swift */; };
 		DE5D987E26F7BF41001D7030 /* UniversidadesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D987D26F7BF41001D7030 /* UniversidadesUI.swift */; };
 		DE5D988126F7BFB4001D7030 /* MuseosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D988026F7BFB4001D7030 /* MuseosUI.swift */; };
 		DE5D988326F7C350001D7030 /* TeatrosUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D988226F7C350001D7030 /* TeatrosUI.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE55FDC126F8EF5100BD1903 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		DE55FDC526F8FE5E00BD1903 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 		DE5D987D26F7BF41001D7030 /* UniversidadesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversidadesUI.swift; sourceTree = "<group>"; };
 		DE5D988026F7BFB4001D7030 /* MuseosUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseosUI.swift; sourceTree = "<group>"; };
 		DE5D988226F7C350001D7030 /* TeatrosUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeatrosUI.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 				DE5D987D26F7BF41001D7030 /* UniversidadesUI.swift */,
 				DE5D988026F7BFB4001D7030 /* MuseosUI.swift */,
 				DE5D988226F7C350001D7030 /* TeatrosUI.swift */,
+				DE55FDC126F8EF5100BD1903 /* ItemList.swift */,
+				DE55FDC526F8FE5E00BD1903 /* ItemDetails.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5D987E26F7BF41001D7030 /* UniversidadesUI.swift in Sources */,
+				DE55FDC626F8FE5E00BD1903 /* ItemDetails.swift in Sources */,
 				DED7064026F77E95009A80BC /* ContentView.swift in Sources */,
 				DE5D988626F7DC6D001D7030 /* Sities.swift in Sources */,
+				DE55FDC226F8EF5100BD1903 /* ItemList.swift in Sources */,
 				DED7063E26F77E95009A80BC /* EVA01_IOSApp.swift in Sources */,
 				DE5D988126F7BFB4001D7030 /* MuseosUI.swift in Sources */,
 				DE5D988326F7C350001D7030 /* TeatrosUI.swift in Sources */,
@@ -304,7 +312,7 @@
 				DEVELOPMENT_TEAM = QTZ94669TR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "EVA01-IOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +334,7 @@
 				DEVELOPMENT_TEAM = QTZ94669TR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "EVA01-IOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

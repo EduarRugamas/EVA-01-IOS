@@ -12,7 +12,7 @@ struct Sities {
     var id : Int
     var name: String
     var description: String
-    var longitud: Float
-    var latitue: Float
+    var longitud: Double
+    var latitue: Double
         
 }
