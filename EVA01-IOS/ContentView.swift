@@ -20,12 +20,13 @@ struct ContentView: View {
                 }
                 MuseosUI()
                 .tabItem {
+                    Image(systemName: "house.fill")
                     Text("Museos")
                 }
                 
                 TeatrosUI()
                     .tabItem {
-                        Image(systemName: "")
+                        Image(systemName: "house.circle")
                         Text("Teatros")
                     }
         }

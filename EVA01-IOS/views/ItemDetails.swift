@@ -13,14 +13,20 @@ struct ItemDetails: View {
     var sitios: Sities
     
     var body: some View {
-        VStack{
-            Text(sitios.name)
-            MapView(coordenadas: sitios)
-                .frame(width: 400, height: 400)
-                .padding()
-            Spacer()
+        ScrollView {
+            VStack{
+                Text(sitios.name)
+                    .font(.title)
+                    .padding(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
+                MapView(coordenadas: sitios)
+                    .frame(width: 380, height: 400)
+                    .padding()
+                Text(sitios.description)
+                    .font(.headline)
+                    .padding()
+                    
+            }
         }
-        
     }
 }
 
